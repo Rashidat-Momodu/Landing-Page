@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu-icon {
+    cursor: pointer;
+}
+
+.center-content {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.right-content {
+    display: flex;
+    align-items: center;
+}
+
+.right-text {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.right-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.text-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.left-content {
+    flex: 1;
+}
+
+.left-content p {
+    font-size: 18px;
+    text-align: left;
+}
+
+.glasses-content img {
+    width: 500px;
+    height: auto;
+}
+
+/* Your existing CSS */
+
+.price {
+    text-decoration: line-through;
+}
+
+.purchase-button {
+    background-color: #c4d4e6; /* Blue background color */
+    color: #161515; /* White text color */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Add padding to the button */
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+}
+
+.purchase-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.image1-content {
+    text-align: center; /* Center-align the text */
+    margin-top: 2px; /* Add space between the glasses image and the "Image" */
+    margin-left: 800px;
+    
+}
+
+/* ... (previous CSS code) ... */
+
+.details-image {
+    margin-left: 120px; /* Add left margin to move the image to the right */
+    
+}
+
+.horizontal-text {
+    text-align: center; /* Center the text horizontally */
+    margin-top: 220px; /* Move the div down by adjusting the top margin */
+    font-size: 24px; /* Adjust font size as needed */
+    /* You can add additional styles like color, font-weight, etc. here */
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row; /* Display items horizontally */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+}
+
+
+.item {
+    flex: 0 0 calc(33.33% - 20px);
+    text-align: center;
+    margin: 20px;
+}
+
+.item img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.item p {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.purchase-button {
+    background-color: #c4d4e6; /* Blue background color */
+    color: #161515; /* White text color */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Add padding to the button */
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+}
+
+.purchase-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
