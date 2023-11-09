@@ -103,8 +103,9 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: row; /* Display items horizontally */
-    flex-wrap: nowrap; /* Allow items to wrap to the next line if necessary */
+    flex-wrap: nowrap; /* Allow items to wrap to the next line if necessary */   
 }
+
 
 .container-2{
     display: flex;
@@ -149,16 +150,111 @@ body {
 
 
 
-/* Additional styles for .item-content, .item, and other elements if needed */
+
+/* Style the item content within each container */
+.item-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style the cart icon inside the item content */
+.item-content-1 i.fa {
+    font-size: 24px; /* Adjust the size as needed */
+    margin-top: 250px; /* Add margin to separate the icon from text */
+    position: absolute;
+    top: 150%; /* Vertically center the icon within the item content */
+    left: 18%; /* Horizontally center the icon within the item content */
+    transform: translate(-20%, -20%); /* Center the icon within the item content */
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #000; /* Icon color */
+}
 
 
+.item-content-2 i.fa {
+    font-size: 120px; /* Adjust the size as needed */
+    margin-top: 3px; /* Add margin to separate the icon from text */
+    position: absolute;
+    top: 190%; /* Vertically center the icon within the item content */
+    left: 55%; /* Horizontally center the icon within the item content */
+    transform: translate(-20%, -20%); /* Center the icon within the item content */
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #000; /* Icon color */
+}
 
+.item-content-3 i.fa {
+    font-size: 200px; /* Adjust the size as needed */
+    margin-top: 550px; /* Add margin to separate the icon from text */
+    position: absolute;
+    top: 100%; /* Vertically center the icon within the item content */
+    left: 92%; /* Horizontally center the icon within the item content */
+    transform: translate(-20%, -20%); /* Center the icon within the item content */
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #000; /* Icon color */
+}
 
+.item-content-4 i.fa {
+    font-size: 240px; /* Adjust the size as needed */
+    margin-top: 100px; /* Add margin to separate the icon from text */
+    position: absolute;
+    top: 235%; /* Vertically center the icon within the item content */
+    left: 18%; /* Horizontally center the icon within the item content */
+    transform: translate(-20%, -20%); /* Center the icon within the item content */
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #000; /* Icon color */
+}
 
+.item-content-5 i.fa {
+    font-size: 220px; /* Adjust the size as needed */
+    margin-top: 300px; /* Add margin to separate the icon from text */
+    position: absolute;
+    top: 200%; /* Vertically center the icon within the item content */
+    left: 55%; /* Horizontally center the icon within the item content */
+    transform: translate(-20%, -20%); /* Center the icon within the item content */
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #000; /* Icon color */
+}
 
+.item-content-6 i.fa {
+    font-size: 150px; /* Adjust the size as needed */
+    margin-top: 300px; /* Add margin to separate the icon from text */
+    position: absolute;
+    top: 200%; /* Vertically center the icon within the item content */
+    left: 92%; /* Horizontally center the icon within the item content */
+    transform: translate(-20%, -20%); /* Center the icon within the item content */
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #000; /* Icon color */
+}
 
+.item-content-7 i.fa {
+    font-size: 200px; /* Adjust the size as needed */
+    margin-top: 680px; /* Add margin to separate the icon from text */
+    position: absolute;
+    top: 197%; /* Vertically center the icon within the item content */
+    left: 18%; /* Horizontally center the icon within the item content */
+    transform: translate(-20%, -20%); /* Center the icon within the item content */
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #000; /* Icon color */
+}
 
+.item-content-8 i.fa {
+    font-size: 100px; /* Adjust the size as needed */
+    margin-top: 3px; /* Add margin to separate the icon from text */
+    position: absolute;
+    top: 310%; /* Vertically center the icon within the item content */
+    left: 55%; /* Horizontally center the icon within the item content */
+    transform: translate(-20%, -20%); /* Center the icon within the item content */
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #000; /* Icon color */
+}
 
-
-
-
+.item-content-9 i.fa {
+    font-size: 200px; /* Adjust the size as needed */
+    margin-top: 800px; /* Add margin to separate the icon from text */
+    position: absolute;
+    top: 180%; /* Vertically center the icon within the item content */
+    left: 92%; /* Horizontally center the icon within the item content */
+    transform: translate(-20%, -20%); /* Center the icon within the item content */
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #000; /* Icon color */
+}
