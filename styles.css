@@ -2,15 +2,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
 }
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0; 
-}
-
 
 .header {
     display: flex;
@@ -67,68 +60,64 @@ body {
     height: auto;
 }
 
-
 .price {
     text-decoration: line-through;
 }
 
 .purchase-button {
-    background-color: #e9eff7; 
-    color: #161515; 
-    border: none; 
-    padding: 10px 20px; 
+    background-color: #e9eff7;
+    color: #161515;
+    border: none;
+    padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 
 .purchase-button:hover {
-    background-color: #0056b3; 
+    background-color: #0056b3;
 }
 
 .image1-content {
-    text-align: center; 
-    margin-top: 2px; 
+    text-align: center;
+    margin-top: 2px;
     margin-left: 800px;
-    
 }
 
 .details-image {
-    margin-left: 120px; 
-    
+    margin-left: 120px;
 }
 
-
 .horizontal-text {
-    text-align: center; 
-    margin-top: 120px; 
-    font-size: 24px; 
+    text-align: center;
+    margin-top: 120px;
+    font-size: 24px;
     margin-bottom: 150px;
-    background-color: white; 
-    color: black; 
-    padding: 10px; 
-   
+    background-color: white;
+    color: black;
+    padding: 10px;
 }
 
 .container-1 {
     display: flex;
     justify-content: center;
-    flex-direction: row; 
-    flex-wrap: nowrap; 
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
 
-
-.container-2{
+.container-2 {
     display: flex;
     justify-content: center;
-    flex-direction: row; 
-    flex-wrap: nowrap; 
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
 
-.container-3{
+.container-3 {
     display: flex;
     justify-content: center;
-    flex-direction: row; 
-    flex-wrap: nowrap; 
-
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
 
 .item {
     flex: 0 0 calc(33.33% - 20px);
@@ -151,7 +140,8 @@ body {
 .item {
     text-align: center;
     margin: 25px;
-    flex: 0 0 33%; 
+    flex: 0 0 33%;
+}
 
 .item-content {
     display: flex;
@@ -160,109 +150,100 @@ body {
 }
 
 .item-content-1 i.fa {
-    font-size: 24px; 
-    margin-top: 250px; 
+    font-size: 24px;
+    margin-top: 250px;
     position: absolute;
-    top: 93%; 
+    top: 93%;
     left: 18%;
-    transform: translate(-20%, -20%); 
-    font-size: 24px; 
+    transform: translate(-20%, -20%);
+    font-size: 24px;
     color: #000;
 }
 
-
 .item-content-2 i.fa {
-    font-size: 120px; 
-    margin-top: 3px; 
+    font-size: 120px;
+    margin-top: 3px;
     position: absolute;
-    top: 135%; 
-    left: 55%; 
-    transform: translate(-20%, -20%); 
-    font-size: 24px; 
-    color: #000; 
+    top: 135%;
+    left: 55%;
+    transform: translate(-20%, -20%);
+    font-size: 24px;
+    color: #000;
 }
 
 .item-content-3 i.fa {
-    font-size: 200px; 
-    margin-top: 550px; 
+    font-size: 200px;
+    margin-top: 550px;
     position: absolute;
-    top: 43%; 
-    left: 92%; 
-    transform: translate(-20%, -20%); 
-    font-size: 24px; 
-    color: #000; 
+    top: 43%;
+    left: 92%;
+    transform: translate(-20%, -20%);
+    font-size: 24px;
+    color: #000;
 }
 
 .item-content-4 i.fa {
-    font-size: 240px; 
-    margin-top: 100px; 
+    font-size: 240px;
+    margin-top: 100px;
     position: absolute;
-    top: 179%; 
-    left: 18%; 
-    transform: translate(-20%, -20%); 
-    font-size: 24px; 
-    color: #000; 
+    top: 179%;
+    left: 18%;
+    transform: translate(-20%, -20%);
+    font-size: 24px;
+    color: #000;
 }
 
 .item-content-5 i.fa {
-    font-size: 220px; 
-    margin-top: 300px; 
+    font-size: 220px;
+    margin-top: 300px;
     position: absolute;
-    top: 145%; 
-    left: 55%; 
-    transform: translate(-20%, -20%); 
-    font-size: 24px; 
+    top: 145%;
+    left: 55%;
+    transform: translate(-20%, -20%);
+    font-size: 24px;
     color: #000;
 }
 
 .item-content-6 i.fa {
-    font-size: 150px; 
+    font-size: 150px;
     margin-top: 300px;
     position: absolute;
-    top: 145%; 
-    left: 92%; 
-    transform: translate(-20%, -20%); 
+    top: 145%;
+    left: 92%;
+    transform: translate(-20%, -20%);
     font-size: 24px;
-    color: #000; 
+    color: #000;
 }
 
 .item-content-7 i.fa {
-    font-size: 200px; 
-    margin-top: 680px; 
+    font-size: 200px;
+    margin-top: 680px;
     position: absolute;
-    top: 145%; 
-    left: 19%; 
-    transform: translate(-20%, -20%); 
-    font-size: 24px; 
-    color: #000; 
+    top: 145%;
+    left: 19%;
+    transform: translate(-20%, -20%);
+    font-size: 24px;
+    color: #000;
 }
 
 .item-content-8 i.fa {
-    font-size: 100px; 
-    margin-top: 3px; 
+    font-size: 100px;
+    margin-top: 3px;
     position: absolute;
-    top: 257%; 
+    top: 257%;
     left: 55%;
-    transform: translate(-20%, -20%); 
-    font-size: 24px; 
-    color: #000; 
+    transform: translate(-20%, -20%);
+    font-size: 24px;
+    color: #000;
 }
 
 .item-content-9 i.fa {
-    font-size: 200px; 
-    margin-top: 800px; 
+    font-size: 200px;
+    margin-top: 800px;
     position: absolute;
-    top: 121%; 
-    left: 92%; 
-    transform: translate(-20%, -20%); 
-    font-size: 24px; 
-    color: #000; 
+    top: 121%;
+    left: 92%;
+    transform: translate(-20%, -20%);
+    font-size: 24px;
+    color: #000;
 }
-
-
-
-
-
-
-
-
